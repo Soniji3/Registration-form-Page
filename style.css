@@ -1,0 +1,97 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+body {
+   font-family: "Poetsen One", sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: Arial, sans-serif;
+   background-color: #f2f2f2;
+}
+
+#container {
+
+   background-color: white;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   width: 500px;
+}
+
+h1 {   
+   font-family: "Poetsen One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="submit"]
+{
+   margin-bottom: 15px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+/* style.css */
+#show-password-button {
+   background-color: rgb(38, 199, 111);
+   font-weight: bold;   
+   color: rgb(255, 255, 255); /* Text color */
+   border: none; /* Remove border */
+   padding: 5px 10px; /* Add padding for better visual */
+   cursor: pointer; /* Add pointer cursor on hover */
+   border-radius: 5px;
+}
+
+#show-password-button:hover {
+   background-color: #4CAF50; /* Change background color on hover to a different color */
+}
+
+
+input[type="submit"] {
+   background-color: #4CAF50;
+   color: white;
+   cursor: pointer;
+   font-weight: bold;
+   border: none;
+}
+
+input[type="submit"]:hover {
+   background-color: #45a049;
+}
+/* style.css */
+#show-password-button {
+   background-color: lightblue; /* Change this to the desired background color */
+   color: white; /* Text color */
+   border: none; /* Remove border */
+   padding: 5px 10px; /* Add padding for better visual */
+   cursor: pointer; /* Add pointer cursor on hover */
+}
+
+#show-password-button:hover {
+   background-color: lightcoral; /* Change background color on hover to a different color */
+}
+
+#register-button:disabled {
+   background-color: grey; /* Change to a color indicating the button is disabled */
+   cursor: not-allowed; /* Change cursor to indicate button is not clickable */
+}
